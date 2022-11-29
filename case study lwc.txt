@@ -1,0 +1,27 @@
+1. created certification-Mobile using app manager and a page using lightning builder
+2. for req 2 we created certification Tab comp
+3.for req 3 used homeTab
+------
+4.detailstab
+certificationcontroller,certification data
+coursecontroller,courseData(similar to certification)
+
+5. trainingsTab(add it to certification tab as it is main for everyone)
+6.coursedelivery(controller also taken)to show data in table
+7.coursedilevryform(withoutapex)
+8.used coursedeliverycontroller apex
+child comp-locationsearch
+parent-locationtrainings
+-------
+9. schemafolder-messagechannels
+trainingstatus red
+trainingcards white(voilet is container)
+trainingdisplay(add status and cards)
+and add this to training tab
+
+10 Additional req
+ chnages in cer and course
+11. same changes in cer amd course
+12 del on same cer
+13 welcomebox
+14 same mobile box
