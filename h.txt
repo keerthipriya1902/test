@@ -1,0 +1,28 @@
+public class soqltest {
+/*SOSL
+ * List<List<sObject>>soql =[Find 'keer' IN ALL FIELDS RETURNING Account(Name), Contact(FirstName,LastName,Department)];
+Account[] act=(Account[])soql[0];
+Contact[] ct=(Contact[])soql[1];
+for(Account a:act){
+    System.debug(a.Name);
+}
+for(Contact b:ct){
+    System.debug(b.LastName);
+}
+*/
+}
+////
+trigger acctrig on Account (before insert) {
+//System.debug('Account is insereted');
+  //  for(Account a:Trigger.New){
+      //  sumcheck.su(1,2);
+       // a.Description = 'New description';
+    }
+    /*
+trigger acctrig on Account (after insert){
+Account a=Trigger.New){
+
+}
+}
+     */
+////
