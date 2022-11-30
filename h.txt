@@ -9,7 +9,7 @@ for(Account a:act){
 for(Contact b:ct){
     System.debug(b.LastName);
 }
-*/
+*
 }
 ////
 trigger acctrig on Account (before insert) {
